@@ -1,0 +1,8 @@
+{
+  "name": "control-previo",
+  "version": "1.2.0",
+  "description": "Seis skills de control previo MINEDU con enrutador: dominio y salida separados, sin solapes.",
+  "author": {
+    "name": "Hanns111"
+  }
+}

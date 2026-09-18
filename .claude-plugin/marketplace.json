@@ -1,0 +1,14 @@
+{
+  "name": "skills-previatech",
+  "owner": {
+    "name": "Hanns111",
+    "url": "https://github.com/Hanns111"
+  },
+  "plugins": [
+    {
+      "name": "control-previo",
+      "source": "./plugins/control-previo",
+      "description": "Control previo de expedientes de pago del MINEDU: ordenes de servicio y compra, viaticos, encargos, caja chica, mas los formatos de salida y las verificaciones transversales de firmas y coherencia."
+    }
+  ]
+}
