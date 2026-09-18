@@ -72,3 +72,21 @@ Cuadrícula desactivada, paneles congelados hasta el encabezado del primer cuadr
 
 ## Entregable adicional
 Cédula de verificación externa en PDF: bloque I con las comprobaciones que no se pudieron ejecutar y columnas en blanco para resultado, fecha y firma; bloque II con las observaciones y el documento a requerir; bloque III con los criterios normativos por los que no se observó; bloque IV con los enlaces.
+
+## Semaforo y cuadros vacios
+- La banda del titulo va **roja** solo si hay al menos una observacion, y **verde con letra blanca cuando no hay ninguna**. La franja de veredicto la acompana con el mismo color, en las siete hojas.
+- **Sin observaciones, el cuadro de observaciones NO se escribe**: ni encabezado, ni fila «Sin observaciones». El bloque se omite entero y lo que se reviso y no se observo va al cuadro FUNDAMENTO DE LA CONCLUSION.
+
+## Color por resultado, no por tipo de cuadro
+El rojo es exclusivo de una observacion real. Ningun cuadro se pinta de rojo por su nombre.
+- Cuadro sin filas: se omite entero, con su encabezado.
+- Cuadro cuyas filas salieron todas conformes: encabezado verde. Alcanza al cuadro de incoherencias, que en ese caso se titula «CUADRO C - COHERENCIA DOCUMENTAL - SIN INCOHERENCIAS».
+- El cuadro de normas aplicadas es un catalogo, no un hallazgo: va azul, nunca rojo.
+- Pendiente de verificacion humana: ambar, nunca rojo.
+- Antes de guardar el libro: si el conteo de observaciones es cero, no puede quedar ni una celda roja en ninguna hoja.
+
+## Que va en la banda de cada hoja
+En las siete hojas, sin excepcion:
+- **Banda del titulo, arriba**: el titulo de la hoja seguido del **numero de expediente E-SINAD**. Ejemplo: DICTAMEN DE CONTROL PREVIO - EXPEDIENTE DEBEDSAR2026-INT-0675929.
+- **Franja de veredicto, debajo**: el resultado de esa hoja y, al final, el **numero de la orden de servicio o de compra**.
+El expediente E-SINAD manda sobre el numero de orden: es el dato que identifica el tramite.
